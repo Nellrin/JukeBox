@@ -96,8 +96,8 @@ int main() {
 
 
             printf("\n\n[o|loop]\n[r|aleatório]\n\n\n[s|quebra a música atual]\n[p|pausar/continuar]\n[n|próxima]\n\n\n");
-            loop?printf("[1]Loop\n"):printf("[0]Loop\n");
-            random?printf("[1]Aleatório\n"):printf("[0]Aleatório");
+            printf("[%d]Loop\n",loop);
+            printf("[%d]Aleatório\n",random);
             printf("\n\n\nNow playing: %s\n", Lista[num - 1]);
             printf("_____________________________\n");
 
